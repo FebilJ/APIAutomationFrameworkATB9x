@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-27T23:10:20 IST" name="Default suite" finished-at="2024-12-27T23:10:29 IST" duration-ms="8746">
+    <groups>
+      <group name="qa">
+        <method signature="TestIntegrationFlow.testCreateBooking(org.testng.ITestContext)[pri:1, instance:com.thetestingacademy.APIAutomationFrameworkATB9x.Tests.integration.TestIntegrationFlow@35841320]" name="testCreateBooking" class="com.thetestingacademy.APIAutomationFrameworkATB9x.Tests.integration.TestIntegrationFlow"/>
+        <method signature="TestIntegrationFlow.testDeleteBookingById(org.testng.ITestContext)[pri:4, instance:com.thetestingacademy.APIAutomationFrameworkATB9x.Tests.integration.TestIntegrationFlow@35841320]" name="testDeleteBookingById" class="com.thetestingacademy.APIAutomationFrameworkATB9x.Tests.integration.TestIntegrationFlow"/>
+        <method signature="TestIntegrationFlow.testUpdateBookingByID(org.testng.ITestContext)[pri:3, instance:com.thetestingacademy.APIAutomationFrameworkATB9x.Tests.integration.TestIntegrationFlow@35841320]" name="testUpdateBookingByID" class="com.thetestingacademy.APIAutomationFrameworkATB9x.Tests.integration.TestIntegrationFlow"/>
+        <method signature="TestIntegrationFlow.testVerifyBookingId(org.testng.ITestContext)[pri:2, instance:com.thetestingacademy.APIAutomationFrameworkATB9x.Tests.integration.TestIntegrationFlow@35841320]" name="testVerifyBookingId" class="com.thetestingacademy.APIAutomationFrameworkATB9x.Tests.integration.TestIntegrationFlow"/>
+      </group> <!-- qa -->
+    </groups>
+    <test started-at="2024-12-27T23:10:20 IST" name="Default test" finished-at="2024-12-27T23:10:29 IST" duration-ms="8746">
+      <class name="com.thetestingacademy.APIAutomationFrameworkATB9x.Tests.integration.TestIntegrationFlow">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.thetestingacademy.APIAutomationFrameworkATB9x.Tests.integration.TestIntegrationFlow@35841320]" started-at="2024-12-27T23:10:20 IST" name="setUp" finished-at="2024-12-27T23:10:21 IST" duration-ms="847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateBooking(org.testng.ITestContext)[pri:1, instance:com.thetestingacademy.APIAutomationFrameworkATB9x.Tests.integration.TestIntegrationFlow@35841320]" started-at="2024-12-27T23:10:21 IST" name="testCreateBooking" finished-at="2024-12-27T23:10:24 IST" duration-ms="2894" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3c443976]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBooking -->
+        <test-method signature="testVerifyBookingId(org.testng.ITestContext)[pri:2, instance:com.thetestingacademy.APIAutomationFrameworkATB9x.Tests.integration.TestIntegrationFlow@35841320]" started-at="2024-12-27T23:10:24 IST" name="testVerifyBookingId" finished-at="2024-12-27T23:10:25 IST" duration-ms="1266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3c443976]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyBookingId -->
+        <test-method signature="testUpdateBookingByID(org.testng.ITestContext)[pri:3, instance:com.thetestingacademy.APIAutomationFrameworkATB9x.Tests.integration.TestIntegrationFlow@35841320]" started-at="2024-12-27T23:10:25 IST" name="testUpdateBookingByID" finished-at="2024-12-27T23:10:28 IST" duration-ms="2418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3c443976]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateBookingByID -->
+        <test-method signature="testDeleteBookingById(org.testng.ITestContext)[pri:4, instance:com.thetestingacademy.APIAutomationFrameworkATB9x.Tests.integration.TestIntegrationFlow@35841320]" started-at="2024-12-27T23:10:28 IST" name="testDeleteBookingById" finished-at="2024-12-27T23:10:29 IST" duration-ms="1134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3c443976]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteBookingById -->
+      </class> <!-- com.thetestingacademy.APIAutomationFrameworkATB9x.Tests.integration.TestIntegrationFlow -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
